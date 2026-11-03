@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisioEnCasa | Terapia y Rehabilitación</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/fisioencasa_favicon.png">
+</head>
+
+<body class="bg-sky-50">
+
+
+    <!-- Fondo blanco, espacios internos y borde inferior -->
+    <header class="bg-white px-6 py-4 border-b border-slate-100">
+
+        <!-- En celular junta los elementos y desde 1024px los coloca en fila -->
+        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-6">
+
+            <!-- Logo centrado en celular y con tamaño original en PC -->
+            <a href="#inicio" class="shrink-0">
+                <img src="img/fisioencasa_logo_horizontal_sin_slogan.png" alt="FisioEnCasa" class="w-44 lg:w-52 h-auto">
+            </a>
+
+            <!-- Centra los enlaces del menú, permite que se acomoden en filas, ajusta sus espacios y tamaños de texto según la pantalla y texto color gris con grosor medio. -->
+            <nav
+                class="flex flex-wrap flex-1 justify-center items-center gap-x-6 gap-y-3 lg:gap-8 text-slate-600 font-medium text-sm lg:text-base">
+
+                <a href="#inicio" class="text-sky-500 border-b-2 border-sky-500 pb-2">
+                    Inicio
+                </a>
+
+                <a href="#nosotros" class="hover:text-sky-500 pb-2">
+                    Nosotros
+                </a>
+
+                <a href="#servicios" class="hover:text-sky-500 pb-2">
+                    Servicios
+                </a>
+
+                <a href="#cobertura" class="hover:text-sky-500 pb-2">
+                    Cobertura
+                </a>
+
+                <a href="#contacto" class="hover:text-sky-500 pb-2">
+                    Contacto
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!--Fondo celeste con degradado y espacios adaptables para celular y PC -->
+    <section id="inicio" class="bg-linear-to-br from-sky-100 via-sky-50 to-white px-6 py-16 md:px-10 md:py-20">
+
+        <!-- Centra el contenido, lo muestra en una columna en celulares y dos en computadoras, dejando espacio entre los elementos. -->
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+            <div>
+
+                <!-- Etiqueta celeste con bordes completamente redondeados (circular) -->
+                <span class="inline-block bg-sky-100 text-sky-700 text-sm font-semibold px-4 py-2 rounded-full">
+                    FISIOTERAPIA A DOMICILIO
+                </span>
+
+                <!-- Título grande, adaptable y con margen superior -->
+                <h2 class="text-4xl md:text-5xl font-bold text-sky-700 mt-6 leading-tight">
+                    Tu bienestar comienza en casa.
+                </h2>
+
+                <!-- Descripción gris con separación superior -->
+                <p class="text-slate-600 text-lg mt-6">
+                    Recupera tu movilidad con atención fisioterapéutica
+                    profesional y personalizada en Lima Metropolitana.
+                </p>
+
+                <!-- Botón celeste con efecto hover y transición suave -->
+                <a href="#contacto"
+                    class="inline-block bg-sky-400 hover:bg-sky-500 text-white font-medium px-6 py-4 rounded-lg mt-8 transition-colors duration-300">
+                    Solicitar atención
+                </a>
+
+                <!-- Elementos organizados verticalmente -->
+                <div class="flex flex-col gap-4 mt-10">
+
+                    <!-- flex y gap-3: coloca el símbolo y el texto en fila -->
+                    <div class="flex items-center gap-3">
+                        <span class="text-sky-600 font-bold">✓</span>
+                        <p class="text-slate-600">Atención personalizada</p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sky-600 font-bold">✓</span>
+                        <p class="text-slate-600">Profesionales a domicilio</p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sky-600 font-bold">✓</span>
+                        <p class="text-slate-600">Cobertura en Lima Metropolitana</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- COLUMNA DERECHA: Fotografía principal -->
+            <div>
+
+                <!-- Imagen de ancho completo, altura adaptable y bordes redondeados -->
+                <img src="img/fisioterapia_a_domicilio.jpg" alt="Fisioterapeuta atendiendo a un paciente en casa"
+                    class="w-full h-96 md:h-[600px] object-cover rounded-2xl">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Información sobre la empresa -->
+    <section id="nosotros" class="bg-white py-16 px-10">
+
+        <div class="max-w-4xl mx-auto text-center">
+
+            <h2 class="text-3xl font-bold text-sky-700">
+                ¿Quiénes somos?
+            </h2>
+
+            <p class="text-slate-600 mt-6">
+                En FisioEnCasa somos un equipo de profesionales
+                dedicados a brindar servicios de fisioterapia y
+                rehabilitación física, directamente en el hogar
+                de nuestros pacientes.
+            </p>
+
+            <p class="text-slate-600 mt-4">
+                Nuestro objetivo es ofrecer una atención
+                personalizada, cómoda y accesible, sin necesidad
+                de trasladarse a un centro de salud.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Fondo celeste y espacios internos adaptables -->
+    <section id="servicios" class="bg-sky-50 px-6 py-16 md:py-20">
+
+        <!-- Limita el ancho y centra el contenido -->
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Título y descripción centrados -->
+            <div class="text-center mb-10">
+
+                <h2 class="text-3xl font-bold text-sky-700 mb-4">
+                    Nuestros servicios
+                </h2>
+
+                <p class="text-slate-600">
+                    Atención personalizada en la comodidad de tu hogar.
+                </p>
+
+            </div>
+
+            <!-- Tarjetas: una columna en móvil, dos en tablet y cuatro en escritorio -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Tarjeta 1: fondo blanco, bordes redondeados, sombra y efecto al pasar el mouse -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+
+                    <!-- Imagen: ancho completo, altura uniforme y recorte proporcional -->
+                    <img src="img/fisica.jpg" alt="Servicio de terapia física"
+                        class="w-full h-44 object-cover rounded-lg mb-5">
+
+                    <h3 class="text-xl font-bold text-sky-700 mb-3">
+                        Terapia física
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Tratamientos para mejorar la movilidad y aliviar
+                        molestias musculares.
+                    </p>
+
+                </div>
+
+                <!-- Tarjeta 2: fondo blanco, bordes redondeados, sombra y efecto al pasar el mouse -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+
+                    <!-- Imagen: ancho completo, altura uniforme y recorte proporcional -->
+                    <img src="img/rehabilitacion.jpg" alt="Servicio de rehabilitación física"
+                        class="w-full h-44 object-cover rounded-lg mb-5">
+
+                    <h3 class="text-xl font-bold text-sky-700 mb-3">
+                        Rehabilitación física
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Recuperación funcional después de lesiones
+                        u operaciones.
+                    </p>
+
+                </div>
+
+                <!-- Tarjeta 3: fondo blanco, bordes redondeados, sombra y efecto al pasar el mouse -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+
+                    <!-- Imagen: ancho completo, altura uniforme y recorte proporcional -->
+                    <img src="img/geriatrica.jpeg" alt="Servicio de fisioterapia geriátrica"
+                        class="w-full h-44 object-cover rounded-lg mb-5">
+
+                    <h3 class="text-xl font-bold text-sky-700 mb-3">
+                        Fisioterapia geriátrica
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Atención para mejorar la movilidad y autonomía
+                        de los adultos mayores.
+                    </p>
+
+                </div>
+
+                <!-- Tarjeta 4: fondo blanco, bordes redondeados, sombra y efecto al pasar el mouse -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300">
+
+                    <!-- Imagen: ancho completo, altura uniforme y recorte proporcional -->
+                    <img src="img/deportiva.jpg" alt="Servicio de fisioterapia deportiva"
+                        class="w-full h-44 object-cover rounded-lg mb-5">
+
+                    <h3 class="text-xl font-bold text-sky-700 mb-3">
+                        Fisioterapia deportiva
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Tratamientos para la recuperación de lesiones
+                        relacionadas con el deporte.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CÓMO FUNCIONA: Fondo celeste suave y espacios interiores -->
+    <section id="funcionamiento" class="bg-sky-100 py-16 px-10">
+
+        <!-- Contenedor centrado con ancho máximo de 1152px -->
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Título azul, centrado y en negrita -->
+            <h2 class="text-3xl font-bold text-sky-700 text-center">
+                ¿Cómo funciona?
+            </h2>
+
+            <!-- Texto gris, centrado y con margen superior -->
+            <p class="text-slate-600 text-center mt-4">
+                Recibe atención profesional en tres sencillos pasos.
+            </p>
+
+            <!-- Grid: 1 columna en móvil y 3 desde pantallas medianas -->
+            <!-- gap-8 separa elementos y mt-10 agrega margen superior -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+
+                <!-- PASO 1: Contenido centrado -->
+                <div class="text-center">
+
+                    <!-- Círculo blanco de 64px con número centrado -->
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-bold text-sky-600">1</span>
+                    </div>
+
+                    <!-- Título con margen superior -->
+                    <h3 class="text-xl font-bold text-sky-700 mt-4">
+                        Contáctanos
+                    </h3>
+
+                    <p class="text-slate-600 mt-3">
+                        Comunícate con nosotros para solicitar
+                        una atención de fisioterapia a domicilio.
+                    </p>
+
+                </div>
+
+                <!-- PASO 2: Contenido centrado -->
+                <div class="text-center">
+
+                    <!-- Círculo blanco con número centrado -->
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-bold text-sky-600">2</span>
+                    </div>
+
+                    <h3 class="text-xl font-bold text-sky-700 mt-4">
+                        Coordinamos
+                    </h3>
+
+                    <p class="text-slate-600 mt-3">
+                        Organizamos la fecha, el horario
+                        y el fisioterapeuta disponible.
+                    </p>
+
+                </div>
+
+                <!-- PASO 3: Contenido centrado -->
+                <div class="text-center">
+
+                    <!-- Círculo blanco con número centrado -->
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-bold text-sky-600">3</span>
+                    </div>
+
+                    <h3 class="text-xl font-bold text-sky-700 mt-4">
+                        Te visitamos
+                    </h3>
+
+                    <p class="text-slate-600 mt-3">
+                        Un fisioterapeuta acudirá a tu domicilio
+                        para brindarte atención personalizada.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COBERTURA: Fondo blanco y espacios verticales y laterales -->
+    <section id="cobertura" class="bg-white py-16 px-10">
+
+        <!-- Contenedor centrado con ancho máximo de 896px -->
+        <div class="max-w-4xl mx-auto text-center">
+
+            <!-- Título azul, centrado y en negrita -->
+            <h2 class="text-3xl font-bold text-sky-700">
+                Nuestra cobertura
+            </h2>
+
+            <!-- Párrafo gris con separación superior -->
+            <p class="text-slate-600 mt-6">
+                En FisioEnCasa llevamos nuestros servicios
+                de fisioterapia y rehabilitación física
+                directamente a tu hogar en Lima Metropolitana.
+            </p>
+
+            <!-- Distritos: etiquetas celestes, centradas y adaptables a celulares -->
+            <div class="flex flex-wrap justify-center gap-3 mt-8">
+
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Miraflores</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">San Isidro</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Surco</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">San Borja</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">La Molina</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Jesús María</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Lince</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Magdalena</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Pueblo Libre</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Barranco</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">Surquillo</span>
+                <span class="bg-sky-100 text-sky-700 px-4 py-2 rounded-lg">San Miguel</span>
+
+                <p class="text-slate-600 mt-6">
+                    ¿No encuentras tu distrito? Consúltanos para confirmar nuestra disponibilidad en tu zona.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACTO: Fondo celeste y espacios interiores -->
+    <section id="contacto" class="bg-sky-50 py-16 px-10">
+
+        <!-- Contenedor centrado con ancho máximo de 672px -->
+        <div class="max-w-2xl mx-auto">
+
+            <!-- Título azul, negrita y centrado -->
+            <h2 class="text-3xl font-bold text-sky-700 text-center">
+                Contáctanos
+            </h2>
+
+            <!-- Párrafo gris, centrado y con margen superior -->
+            <p class="text-slate-600 text-center mt-4">
+                Solicita información sobre nuestros servicios
+                de fisioterapia a domicilio.
+            </p>
+
+            <!-- Formulario blanco con espacio interior, sombra y bordes redondeados -->
+            <form class="bg-white p-8 rounded-xl shadow-sm mt-10">
+
+                <!-- Campo con separación inferior -->
+                <div class="mb-5">
+
+                    <!-- Etiqueta en bloque, gris y con margen inferior -->
+                    <label for="nombre" class="block text-slate-700 font-medium mb-2">
+                        Nombre completo
+                    </label>
+
+                    <!-- Campo de ancho completo, borde gris y esquinas redondeadas -->
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"
+                        class="w-full border border-slate-300 rounded-lg p-3">
+                </div>
+
+                <!-- Campo con separación inferior -->
+                <div class="mb-5">
+
+                    <label for="telefono" class="block text-slate-700 font-medium mb-2">
+                        Teléfono
+                    </label>
+
+                    <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono"
+                        class="w-full border border-slate-300 rounded-lg p-3">
+                </div>
+
+                <!-- Selector de servicio con separación inferior -->
+                <div class="mb-5">
+
+                    <label for="servicio" class="block text-slate-700 font-medium mb-2">
+                        Servicio
+                    </label>
+                    <!-- Lista desplegable de servicios -->
+                    <select id="servicio" name="servicio" class="w-full border border-slate-300 rounded-lg p-3">
+
+                        <option value="">Selecciona un servicio</option>
+                        <option value="terapia">Terapia física</option>
+                        <option value="rehabilitacion">Rehabilitación física</option>
+                        <option value="geriatrica">Fisioterapia geriátrica</option>
+                        <option value="deportiva">Fisioterapia deportiva</option>
+
+                        <!-- Otra opción para servicios no incluidos en la lista -->
+                        <option value="otro">Otro</option>
+
+                    </select>
+
+
+                </div>
+
+                <!-- Campo de mensaje con separación inferior -->
+                <div class="mb-6">
+
+                    <label for="mensaje" class="block text-slate-700 font-medium mb-2">
+                        Mensaje
+                    </label>
+
+                    <!-- Área de texto de ancho completo y altura de 128px -->
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas"
+                        class="w-full border border-slate-300 rounded-lg p-3"></textarea>
+                </div>
+
+                <!-- Botón celeste con cambio de color al pasar el mouse -->
+                <button type="button"
+                    class="bg-sky-400 hover:bg-sky-500 text-white font-medium p-3 rounded-lg w-full transition-colors duration-300">
+                    Enviar solicitud
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer: fondo celeste, espacios internos y texto azul -->
+    <footer class="bg-sky-100 px-6 py-12 text-slate-700">
+
+        <!-- Contenedor: limita el ancho y centra el contenido -->
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Columnas: se apilan en móvil y se distribuyen en escritorio -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+
+                <!-- Marca: logo y frase de presentación -->
+                <div>
+                    <a href="#inicio">
+                        <img src="img/fisioencasa_logo_horizontal_sin_slogan.png" alt="FisioEnCasa"
+                            class="w-44 h-auto mb-4">
+                    </a>
+
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Tu bienestar comienza en casa.
+                        Atención fisioterapéutica profesional
+                        y personalizada.
+                    </p>
+                </div>
+
+                <!-- Enlaces: navegación vertical con efecto al pasar el mouse -->
+                <div>
+                    <h3 class="font-bold text-sky-700 mb-4">
+                        Enlaces rápidos
+                    </h3>
+
+                    <div class="flex flex-col gap-3 text-sm">
+                        <a href="#inicio" class="hover:text-sky-500">Inicio</a>
+                        <a href="#nosotros" class="hover:text-sky-500">Nosotros</a>
+                        <a href="#servicios" class="hover:text-sky-500">Servicios</a>
+                        <a href="#cobertura" class="hover:text-sky-500">Cobertura</a>
+                        <a href="#contacto" class="hover:text-sky-500">Contacto</a>
+                    </div>
+                </div>
+
+                <!-- Atención: información y botón de contacto -->
+                <div>
+                    <h3 class="font-bold text-sky-700 mb-4">
+                        Contáctanos
+                    </h3>
+
+                    <p class="text-sm text-slate-600 mb-5">
+                        Brindamos atención de fisioterapia
+                        a domicilio en Lima Metropolitana.
+                    </p>
+
+                    <a href="#contacto"
+                        class="inline-block bg-sky-500 text-white px-5 py-3 rounded-lg font-semibold text-sm hover:bg-sky-600 transition-colors">
+                        Solicitar atención →
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Parte inferior: línea divisoria y derechos reservados -->
+            <div class="border-t border-sky-200 pt-1 text-center text-sm text-slate-600">
+
+                <p>
+                    © 2026 FisioEnCasa. Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
