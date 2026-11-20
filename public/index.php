@@ -55,7 +55,7 @@ $uri = parse_url(
 // ELIMINAR RUTA BASE
 // =====================================
 
-$basePath = '/Fisiobalance/public';
+$basePath = '/FisioEnCasa/public';
 
 if (str_starts_with($uri, $basePath)) {
 
